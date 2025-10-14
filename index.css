@@ -19,7 +19,6 @@ body * {
 }
 
 #container{
-    border: 1px solid orangered;
     width: 360px;
     /*height: 712px;*/ 
     /*tinha essa altura para nós vermos o tamanho do container igual no protótipo, mas abandonamos isso e vamos fazer a mesma altura 
