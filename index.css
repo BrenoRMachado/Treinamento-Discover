@@ -1,19 +1,41 @@
-
+/*Reset de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-image: url(./Assets/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+    color: white;
 }
 
 #container{
     border: 1px solid orangered;
     width: 360px;
-    height: 712px;
+    /*height: 712px;*/ 
+    /*tinha essa altura para nós vermos o tamanho do container igual no protótipo, mas abandonamos isso e vamos fazer a mesma altura 
+    ser feita com os conteúdos que vão entrar nesse container*/
     margin: auto;
 }
 
+#profile{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 #profile img {
+    border: 1px solid white;
     border-radius: 3000px;
+    width: 112px; 
+    
 }
