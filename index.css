@@ -11,4 +11,9 @@ body {
     border: 1px solid orangered;
     width: 360px;
     height: 712px;
+    margin: auto;
+}
+
+#profile img {
+    border-radius: 3000px;
 }
