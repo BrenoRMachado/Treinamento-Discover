@@ -27,7 +27,7 @@ body * {
     /*margin: auto;
     margin-top: 56px;*/ /*vamos melhorar:*/
     margin: 56px auto 0px;
-
+    padding: 0 24px;
 }
 
 #profile{
