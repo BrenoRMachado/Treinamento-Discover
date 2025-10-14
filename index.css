@@ -24,7 +24,11 @@ body * {
     /*height: 712px;*/ 
     /*tinha essa altura para nós vermos o tamanho do container igual no protótipo, mas abandonamos isso e vamos fazer a mesma altura 
     ser feita com os conteúdos que vão entrar nesse container*/
-    margin: auto;
+
+    /*margin: auto;
+    margin-top: 56px;*/ /*vamos melhorar:*/
+    margin: 56px auto 0px;
+
 }
 
 #profile{
