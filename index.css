@@ -31,7 +31,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-
+    height: 100vh;
 }
 
 body * {
@@ -40,7 +40,8 @@ body * {
 }
 
 #container{
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     /*height: 712px;*/ 
     /*tinha essa altura para nós vermos o tamanho do container igual no protótipo, mas abandonamos isso e vamos fazer a mesma altura 
     ser feita com os conteúdos que vão entrar nesse container*/
@@ -172,4 +173,16 @@ footer {
     text-align: center;
     padding: 24px 0;
     font-size: 14px;
+}
+
+@media (min-width: 700px)
+{
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg)
+
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
 }
